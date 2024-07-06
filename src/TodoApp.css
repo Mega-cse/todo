@@ -1,0 +1,72 @@
+.TodoApp {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.todo-card {
+  margin: 20px;
+  padding: 20px;
+  background-color:light green;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  flex-basis: 30%;
+}
+
+.todo-card select {
+  margin-left: 10px;
+}
+
+.todo-card button {
+  margin-right:10px;
+ 
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: mediumspringgreen;
+}
+.filter select{
+  background-color:rgb(224, 101, 101);
+  font-size: 12px; 
+  width: 100px; 
+  
+  
+}
+.TodoApp h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-card{
+  background-color: rgb(166, 229, 194);
+}
+
+.edit-button {
+  background-color: #12e619; 
+}
+.delete-button
+{
+  background-color: orange;
+}
+.submit
+{
+  background-color: mediumseagreen;
+}
+.option1
+{background-color: rgb(224, 101, 101);}
+.option2
+{
+  background-color: mediumspringgreen;
+}
